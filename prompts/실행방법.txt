@@ -1,0 +1,10 @@
+#디렉토리이동
+cd hands-on\02.multi-turn
+#venv 설치
+python -m venv venv; 
+#활성화
+venv\Scripts\Activate.ps1
+#의존성설치
+pip install -r requirements.txt
+#실행
+streamlit run travel-planner.py
