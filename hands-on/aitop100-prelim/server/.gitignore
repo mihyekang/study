@@ -1,0 +1,7 @@
+# 비밀값·로컬 환경·실행 산출물 커밋 방지
+.env
+venv/
+.venv/
+logs/
+__pycache__/
+.pytest_cache/
